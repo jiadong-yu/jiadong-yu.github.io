@@ -32,7 +32,7 @@ ninja.data = [{
         },
       },{id: "nav-group",
         title: "Group",
-        description: "Students and collaborators in the research group.",
+        description: "Students and collaborators at EXTEND Lab.",
         section: "Navigation",
         handler: () => {
           window.location.href = "/Bio/group/";
