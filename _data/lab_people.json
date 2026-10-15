@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Research Team",
+    "members": [
+      {
+        "name": "Yulong Zhang",
+        "photo": "https://extend-lab.com/assets/people/yulong-zhang.jpg",
+        "role": "PhD Student · 2023-present"
+      },
+      {
+        "name": "Hao Xiong",
+        "photo": "https://extend-lab.com/assets/people/hao-xiong.jpeg",
+        "role": "PhD Student · 2023-present"
+      },
+      {
+        "name": "Ziru Zhang",
+        "photo": "https://extend-lab.com/assets/people/ziru-zhang.jpeg",
+        "role": "PhD Student · 2024-present"
+      },
+      {
+        "name": "Jianing Zheng",
+        "photo": "https://extend-lab.com/assets/people/jianing-zheng.jpeg",
+        "role": "PhD Student · 2024-present"
+      },
+      {
+        "name": "Xuling Zhang",
+        "photo": "https://extend-lab.com/assets/people/xuling-zhang.jpeg",
+        "role": "PhD Student · 2024-present"
+      },
+      {
+        "name": "Xinren Zhang",
+        "photo": "https://extend-lab.com/assets/people/xinren-zhang.jpeg",
+        "role": "PhD Student · 2025-present"
+      },
+      {
+        "name": "Jiale Li",
+        "photo": "https://extend-lab.com/assets/people/jiale-li.jpeg",
+        "role": "PhD Student · 2025-present"
+      },
+      {
+        "name": "Guanghui Song",
+        "photo": "https://extend-lab.com/assets/people/guanghui-song.jpg",
+        "role": "PhD Student · 2026-present"
+      },
+      {
+        "name": "Guangzhi Zhu",
+        "photo": "https://extend-lab.com/assets/people/guangzhi-zhu.jpg",
+        "role": "MPhil Student"
+      }
+    ],
+    "rows": []
+  },
+  {
+    "title": "Collaborators",
+    "members": [
+      {
+        "name": "Nianfu Wang",
+        "photo": "https://extend-lab.com/assets/people/nianfu-wang.jpg",
+        "role": "Visiting PhD Student from HIT(SZ) and Pengcheng Lab"
+      },
+      {
+        "name": "Rongqi Lu",
+        "photo": "https://extend-lab.com/assets/people/rongqi-lu.jpg",
+        "role": "MSc Graduated from Xidian University · Upcoming work in Huawei"
+      }
+    ],
+    "rows": []
+  },
+  {
+    "title": "Alumni",
+    "members": [],
+    "rows": [
+      ["Name", "Previous Team Role", "Destination"],
+      ["Chen Shang", "Research Assistant, 2024-2025", "PhD at the University of Technology Sydney"],
+      ["Sixi Cheng", "Research Assistant, 2025", "PhD at the Singapore University of Technology and Design"]
+    ]
+  }
+]

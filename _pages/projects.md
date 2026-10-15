@@ -6,6 +6,7 @@ description: Selected grants and funded research led by Jiadong Yu.
 nav: true
 nav_order: 2
 ---
+
 <p class="jd-page-intro">This page lists selected grants and funded research from my academic CV.</p>
 
 <div class="jd-section-divider"><span>Selected Grants</span></div>
