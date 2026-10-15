@@ -36,6 +36,27 @@ python -m pip install beautifulsoup4==4.15.0
 python scripts/sync_people.py
 ```
 
+## Grants and Publications synchronization
+
+The Grants page keeps its card layout and reads project titles, funders, amounts,
+and dates from https://extend-lab.com/projects/ in source order. Known PI/Co-PI and
+location details remain in `_data/grant_details.json`; projects without those
+local details omit those fields. New projects are included automatically.
+
+The Publications page reads the complete archive linked by Research → Publications
+→ Find More at https://extend-lab.com/publications/, including both journal and
+conference lists. It preserves the existing J/C labels, journal italics, and
+J. Yu author emphasis. Source corrections, additions, and removals are reflected
+on the next deployment. `_bibliography/papers.bib` is not used by this page.
+
+Both pages refresh during the same six-hour deployment schedule as Group.
+Snapshots are in `_data/lab_projects.json` and `_data/lab_publications.json`.
+To refresh them locally after installing Beautiful Soup:
+
+```bash
+python scripts/sync_research.py
+```
+
 ## Local development
 
 ```bash

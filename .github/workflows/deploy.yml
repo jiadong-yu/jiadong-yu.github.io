@@ -93,6 +93,7 @@ jobs:
           python -m pip install --upgrade nbconvert
           python -m pip install beautifulsoup4==4.15.0
           python scripts/sync_people.py
+          python scripts/sync_research.py
           export JEKYLL_ENV=production
           repo_name="${GITHUB_REPOSITORY#*/}"
           base_path=""
