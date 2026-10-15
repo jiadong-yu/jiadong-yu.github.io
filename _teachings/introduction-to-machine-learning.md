@@ -6,7 +6,7 @@ instructor: Jiadong Yu
 year: 2024
 term: Fall
 location: HKUST(GZ)
-time: 2024/2025 Fall
+time: 2024/2025 Fall; 2026 Fall
 course_id: iota-5201
 ---
 
@@ -23,7 +23,7 @@ This MPhil/PhD course systematically covers reinforcement learning from fundamen
 ## Offering
 
 - IOTA 5201
-- Semester: 2024/2025 Fall
+- Semester: 2024/2025 Fall; 2026 Fall
 - Level: MPhil/PhD
 
 ## Topics

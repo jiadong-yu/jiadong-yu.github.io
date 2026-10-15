@@ -4,21 +4,14 @@ Personal academic homepage built with Jekyll and al-folio.
 
 Deployment URL: https://jiadong-yu.github.io/
 
-## Root URL migration
+## GitHub Pages deployment
 
-Rename the GitHub repository from `Bio` to `jiadong-yu.github.io` in Settings → General.
-Keep Settings → Pages configured to deploy from `gh-pages` (root), then run the
-Deploy site workflow. The configuration already uses an empty `baseurl`. During the transition, the workflow
-uses `/Bio` while the repository is named `Bio`, and switches to the root automatically
-after renaming.
-Update the local remote after renaming:
+Repository: https://github.com/jiadong-yu/jiadong-yu.github.io
 
-```bash
-git remote set-url origin git@github-jiadongyu:jiadong-yu/jiadong-yu.github.io.git
-```
-
-GitHub does not redirect old project Pages URLs automatically. External links to
-`https://jiadong-yu.github.io/Bio/` should be updated, including the link on EXTEND Lab People.
+The site is published at the root URL with an empty `baseurl`. The deployment
+workflow explicitly builds for the root. Settings → Pages uses `gh-pages` (root).
+After repository or URL changes, run Deploy site to regenerate navigation,
+canonical URLs, course links, and asset paths before serving the new address.
 
 ## Group synchronization
 

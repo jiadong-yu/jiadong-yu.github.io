@@ -6,7 +6,7 @@ instructor: Jiadong Yu
 year: 2025
 term: Fall / Spring
 location: HKUST(GZ)
-time: 2025 Fall; 2025/2026 Spring
+time: 2025 Fall; 2025/2026 Spring; 2026 Fall
 course_id: ufug-2104
 ---
 
@@ -23,7 +23,7 @@ This undergraduate course introduces the core ideas of probability and statistic
 ## Offerings
 
 - UFUG 2104
-- Semesters: 2025 Fall; 2025/2026 Spring
+- Semesters: 2025 Fall; 2025/2026 Spring; 2026 Fall
 - Level: Undergraduate
 
 ## Topics

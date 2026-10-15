@@ -95,12 +95,7 @@ jobs:
           python scripts/sync_people.py
           python scripts/sync_research.py
           export JEKYLL_ENV=production
-          repo_name="${GITHUB_REPOSITORY#*/}"
-          base_path=""
-          if [ "${repo_name,,}" != "${GITHUB_REPOSITORY_OWNER,,}.github.io" ]; then
-            base_path="/$repo_name"
-          fi
-          bundle exec jekyll build --baseurl "$base_path"
+          bundle exec jekyll build --baseurl ""
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
