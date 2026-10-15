@@ -18,7 +18,7 @@ ninja.data = [{
         },
       },{id: "nav-grants",
         title: "Grants",
-        description: "Selected grants and funded research led by Jiadong Yu.",
+        description: "Grants and funded research from EXTEND Lab Projects.",
         section: "Navigation",
         handler: () => {
           window.location.href = "/Bio/grants/";
