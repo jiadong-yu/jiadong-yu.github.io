@@ -7,42 +7,42 @@ ninja.data = [{
     title: "About",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/Bio/";
+      window.location.href = "/";
     },
   },{id: "nav-teaching",
         title: "Teaching",
         description: "Courses taught by Jiadong Yu at HKUST(GZ).",
         section: "Navigation",
         handler: () => {
-          window.location.href = "/Bio/teaching/";
+          window.location.href = "/teaching/";
         },
       },{id: "nav-grants",
         title: "Grants",
         description: "Grants and funded research from EXTEND Lab Projects.",
         section: "Navigation",
         handler: () => {
-          window.location.href = "/Bio/grants/";
+          window.location.href = "/grants/";
         },
       },{id: "nav-services",
         title: "Services",
         description: "Professional services and academic activities by Jiadong Yu.",
         section: "Navigation",
         handler: () => {
-          window.location.href = "/Bio/services/";
+          window.location.href = "/services/";
         },
       },{id: "nav-group",
         title: "Group",
         description: "Students and collaborators at EXTEND Lab.",
         section: "Navigation",
         handler: () => {
-          window.location.href = "/Bio/group/";
+          window.location.href = "/group/";
         },
       },{id: "nav-publications",
         title: "Publications",
         description: "Journal and conference papers by Jiadong Yu.",
         section: "Navigation",
         handler: () => {
-          window.location.href = "/Bio/publications/";
+          window.location.href = "/publications/";
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -70,12 +70,12 @@ ninja.data = [{
           title: 'Applied Statistics',
           description: "Undergraduate course on probability, inference, regression, and Bayesian thinking.",
           section: "Teachings",handler: () => {
-              window.location.href = "/Bio/teachings/data-science-fundamentals/";
+              window.location.href = "/teachings/data-science-fundamentals/";
             },},{id: "teachings-reinforcement-learning-for-intelligent-decision-making",
           title: 'Reinforcement Learning for Intelligent Decision Making',
           description: "Graduate course covering reinforcement learning from core foundations to advanced RL and MARL.",
           section: "Teachings",handler: () => {
-              window.location.href = "/Bio/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'email',

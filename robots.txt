@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jiadong-yu.github.io/Bio/sitemap.xml
+Sitemap: https://jiadong-yu.github.io/sitemap.xml
